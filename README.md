@@ -5,85 +5,139 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rizwan Khan | Fitness & Design</title>
   <style>
-    body { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #333; }
-    header { background: #111; color: #fff; padding: 20px; text-align: center; }
-    nav { background: #222; display: flex; justify-content: center; gap: 20px; padding: 10px; }
-    nav a { color: #fff; text-decoration: none; font-weight: bold; }
-    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
-    .buttons a { display: inline-block; background: #007BFF; color: #fff; padding: 10px 20px; margin: 10px 5px; text-decoration: none; border-radius: 5px; }
-    .hero { text-align: center; }
-    .ebook, .services, .portfolio, .contact { background: #f9f9f9; border-radius: 8px; padding: 30px; margin-top: 30px; }
-    .portfolio-images { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
-    .portfolio-images img { width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-    footer { background: #111; color: #fff; text-align: center; padding: 15px; margin-top: 40px; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2, h3 {
+      color: #007BFF;
+    }
+    .hero {
+      text-align: center;
+    }
+    .buttons a {
+      background: #007BFF;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+      display: inline-block;
+    }
+    .ebook img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .portfolio-grid img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Rizwan Khan</h1>
     <p>Fitness Coach & Graphic Designer</p>
   </header>
 
   <nav>
-    <a href="#home">Home</a>
     <a href="#ebook">Ebook</a>
-    <a href="#services">Design Services</a>
-    <a href="#portfolio">Portfolio</a>
+    <a href="#design">Design</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="home" class="hero">
-    <h2>Build Your Body & Your Brand — All from Home</h2>
+  <section class="hero">
+    <h2>Transform Your Body & Brand from Home</h2>
+    <p>Download my ebook or hire me for stunning design work</p>
     <div class="buttons">
-      <a href="#ebook">Buy My Ebook</a>
-      <a href="#services">Hire Me</a>
+      <a href="#ebook">📘 Buy My Ebook</a>
+      <a href="#design">🎨 Design Services</a>
     </div>
   </section>
 
   <section id="ebook" class="ebook">
-    <h3>📘 Fit at Home - Your Fitness Guide</h3>
+    <h3>📘 Fit at Home - Fitness Ebook</h3>
+    <img src="https://i.imgur.com/IquCefP.jpg" alt="Ebook Cover">
     <p><strong>Author:</strong> Rizwan Khan</p>
-    <p>This beginner-friendly ebook helps you get in shape without going to the gym. It includes easy workouts, dieting tips, and a 7-day challenge — perfect for anyone starting their fitness journey.</p>
+    <p>Learn how to stay fit from the comfort of your home with easy workouts, meal tips, and a 7-day challenge. Perfect for beginners!</p>
     <ul>
-      <li>Realistic Goal Setting</li>
-      <li>No-Equipment Workouts</li>
-      <li>Weight Loss Strategies</li>
-      <li>7-Day Fitness Plan</li>
+      <li>No gym required</li>
+      <li>7-day transformation plan</li>
+      <li>Basic nutrition guide</li>
     </ul>
-    <a href="#" class="buttons">Buy Now</a>
+    <a href="https://your-buy-now-link.com" class="buttons" target="_blank">💳 Buy Now</a>
   </section>
 
-  <section id="services" class="services">
-    <h3>🎨 Graphic Design Services</h3>
-    <p>I design visually stunning graphics for:</p>
+  <section id="design">
+    <h3>🎨 Graphic Design Portfolio</h3>
+    <p>I create eye-catching designs for:</p>
     <ul>
       <li>Product Packaging</li>
       <li>Ebook Covers</li>
-      <li>Social Media Posts</li>
-      <li>YouTube Thumbnails</li>
+      <li>Thumbnails & Posters</li>
     </ul>
-    <a href="https://wa.me/923192995990" target="_blank" class="buttons">WhatsApp Me</a>
-  </section>
 
-  <section id="portfolio" class="portfolio">
-    <h3>📸 Portfolio</h3>
-    <div class="portfolio-images">
-      <img src="https://i.imgur.com/dfMeG1D.jpg" alt="Face Wash Design">
-      <img src="https://i.imgur.com/IquCefP.jpg" alt="Ebook Cover Design">
-      <img src="https://i.imgur.com/8DT4XG9.jpg" alt="Perfume Product Shot">
-      <img src="https://i.imgur.com/hZxqF6Y.jpg" alt="Skincare Tube Mockup">
+    <div class="portfolio-grid">
+      <img src="https://i.imgur.com/dfMeG1D.jpg" alt="Face Wash">
+      <img src="https://i.imgur.com/8DT4XG9.jpg" alt="Perfume Jarva">
+      <img src="https://i.imgur.com/hZxqF6Y.jpg" alt="Skincare Tube">
+      <img src="https://i.imgur.com/IquCefP.jpg" alt="Ebook Cover">
     </div>
   </section>
 
-  <section id="contact" class="contact">
+  <section id="contact">
     <h3>📞 Contact Me</h3>
     <p><strong>Email:</strong> kingkingobaloch@gmail.com</p>
     <p><strong>WhatsApp:</strong> 03192995990</p>
-    <p>I’d love to help you with your fitness journey or design your next brand!</p>
+    <a href="https://wa.me/923192995990" target="_blank" class="buttons">📲 Message on WhatsApp</a>
   </section>
 
   <footer>
-    &copy; 2025 Rizwan Khan | All rights reserved.
+    &copy; 2025 Rizwan Khan — All rights reserved.
   </footer>
+
 </body>
 </html>
